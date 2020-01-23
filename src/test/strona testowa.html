@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Witaj</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="src/main/webapp/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    Podaj imię
+    <form action="welcome.jsp">
+        <input type="text" name="uname">
+        <input type="submit" value="go">
+    </form>
+    <br/>
+    Uwaga, jezeli chcesz wejsc na google.com <br/>
+    wpisz "google"
+    <br/>
+    <br/>
+    <form action="search.jsp">
+        <label>szukane słowo: <input type="text" name="query"></label>
+        <br/>
+        <label>strona numer: <input type="text" name="page"></label>
+        <br/>
+        <label>sortowanie: <select name="sort">
+<option value="asc">asc</option>
+            <option value="desc">desc</option>
+        </select>
+        </label>
+        <br/>
+        <button>sort</button>
+    </form>
+
+
+</div>
+</body>
+</html>
